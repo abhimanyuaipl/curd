@@ -1,0 +1,22 @@
+<table style="width:100%; border:1px solid;" >
+<tr>
+<th>#</th>
+<th>First name</th>
+<th>Last name</th>
+
+
+
+</tr>
+
+<?php
+foreach($user as $key => $user)
+
+
+
+?>
+<tr>
+<td><?php echo $key?></td>
+<td><?php echo $user['post'] ?></td>
+<td><?php echo $user['postedby'] ?></td>
+</tr>
+</table>
